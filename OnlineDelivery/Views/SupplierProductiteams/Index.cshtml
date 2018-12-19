@@ -1,0 +1,64 @@
+﻿@model IEnumerable<OnlineDelivery.Models.Productiteam>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<p>
+	<div class="row">
+		<a href="/SupplierProductiteams/Create" class="col-sm-2 justify-content-center text-center" style="    padding: 5px;
+    color: white;
+    background: #22c188;    margin-left: 16px;
+    font-size: 18px;text-decoration:none">Create New</a>
+		</div>
+</p>
+    <table class="table table-bordered table-hover table-striped">
+        <tr class="text-center">
+            <th>
+                @Html.DisplayNameFor(model => model.Product_Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product_Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Product_Quantity)
+            </th>
+            <th>Action</th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr class="text-center">
+                <td>
+                    @Html.DisplayFor(modelItem => item.Product_Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Product_Price)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Product_Quantity)
+                </td>
+				<td>
+					
+					@Html.ActionLink("Edit", "Edit", new { id = item.Product_ID }, htmlAttributes: new { @style = "text-decoration:none;padding: 6px;border-radius: 15px 15px;color:white;background: #565656;" }) |
+					@Html.ActionLink("Details", "Details", new { id = item.Product_ID }, htmlAttributes: new { @style = "text-decoration:none;padding: 6px;border-radius: 15px 15px;color:white;background: #565656;" }) |
+					@Html.ActionLink("Delete", "Delete", new { id = item.Product_ID }, htmlAttributes: new { @style = "text-decoration:none;padding: 6px;border-radius: 15px 15px;color:white;background: #565656;" })
+				</td>
+            </tr>
+        }
+
+    </table>
+    <br />
+	<div class="row">
+		<div class="col-sm-4"></div>
+		<div class="col-sm-4">
+			<a href="http://localhost:2711/SuppliersLogin/Dasboard" class="text-center" style="padding: 8px;
+    color: white;
+    background: #1f66d4;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 9px">Go Back Dashboard</a>
+		</div>
+		<div class="col-sm-4"></div>
+	</div>

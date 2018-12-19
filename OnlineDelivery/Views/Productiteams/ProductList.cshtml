@@ -1,0 +1,45 @@
+﻿@model IEnumerable<OnlineDelivery.Models.Productiteam>
+
+@{
+    ViewBag.Title = "Index";
+}
+<div class="jumbotron">
+	<h2 class="text-center">Product List</h2>
+</div>
+	
+
+
+	<table class="table table-bordered table-hover table-striped">
+		<tr>
+			<th class="text-center">
+				Product Name
+			</th>
+			<th class="text-center">
+				Product Price
+			</th>
+			<th class="text-center">
+				Action
+			</th>
+		</tr>
+
+		@foreach (var item in Model)
+		{
+			<tr>
+				<td class="text-center">
+					@item.Product_Name
+				</td>
+				<td class="text-center">
+					@item.Product_Price
+				</td>
+
+				<td class="text-center" >
+					<a href="/Productiteams/Add?productId=@item.Product_ID&supplierId=@Request.QueryString["supplier"]" 
+					    onMouseOver="this.style.backgroundColor ='black'" onMouseOut="this.style.backgroundColor='#565656'"
+					   style="text-decoration:none;padding: 6px;border-radius: 15px 50px;color:white;background: #565656;">Add To Cart</a>
+
+				</td>
+			</tr>
+		}
+
+	</table>
+

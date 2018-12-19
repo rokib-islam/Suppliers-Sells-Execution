@@ -1,0 +1,125 @@
+﻿@{
+				/**/
+
+				ViewBag.Title = "ShowCart";
+				ViewBag.Title = "saveorder";
+
+
+				Layout = "~/Views/Shared/_Layout.cshtml";
+
+				//int userBonus = 0;
+
+				var userBonus = ViewBag.nBonus;
+
+				var USERBonus = ViewBag.mBonus;
+
+
+}
+
+
+<div class="jumbotron">
+	<h2 class="text-center">Your Product Cart</h2>
+
+</div>
+@if (Model != null)
+{
+	<table class="table table-bordered table-hover table-striped">
+		<thead>
+			<tr class="text-center">
+				<th> Product Name</th>
+				<th> Product Price</th>
+				<th> Quantity</th>
+				<th> Sub Total</th>
+				<th> Delete</th>
+
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var item in Model.Items)
+			{
+				double Total = item.PQuantity * item.Productiteams.Product_Price;
+
+
+				<tr class="text-center">
+					<td>@item.Productiteams.Product_Name</td>
+					<td>@item.Productiteams.Product_Price</td>
+					<td>
+						@using (Html.BeginForm("Update", "Productiteams"))
+						{
+							<div class="row">
+								<div class="col-sm-8">
+									<input type="number" value="@item.PQuantity" name="Product_Quantity" min="1" id="Product_Quantity" />
+									<input type="hidden" value="@item.Productiteams.Product_ID" name="Product_ID" id="Product_Quantity" />
+								</div>
+								<div class="col-sm-2">
+									<input type="image" src="~/Image/arrow3.png" style=" width:40px;height:35px" />
+								</div>
+							</div>
+						}
+					</td>
+					<td>@Total</td>
+
+					<td>
+						<a href="/Productiteams/Remove/@item.Productiteams.Product_ID"
+						   onMouseOver="this.style.backgroundColor ='black'" onMouseOut="this.style.backgroundColor='#565656'"
+						   style="text-decoration:none;padding: 6px;border-radius: 15px 50px;color:white;background: #565656;">Delete</a>
+					</td>
+				</tr>
+			}
+		</tbody>
+		<tfoot>
+			<tr>
+				<td colspan="5">
+					<a href="/Productiteams/Checkout"
+					   onMouseOver="this.style.backgroundColor ='black'" onMouseOut="this.style.backgroundColor='#565656'"
+					   style="text-decoration:none;padding: 6px;border-radius: 15px 50px;color:white;background: #565656;">
+						Check Out
+					</a>
+					@*@Html.ActionLink("Check Out", "Checkout", " Productiteams")*@
+				</td>
+			</tr>
+
+			<tr>
+				<td colspan="5">Total :@Model.Total_Price()</td>
+			</tr>
+			<tr>
+				<td colspan="5">Calculate With Bonus: @userBonus</td>
+			</tr>
+
+			@*<tr>
+				<td colspan="5">Calculate With Bonus: @USERBonus</td>
+			</tr>*@
+
+			<tr>
+
+				<td>
+					<a href="/Productiteams/ProductList?supplier=@Session["CartSupplierId"]"
+					   onMouseOver="this.style.backgroundColor ='black'" onMouseOut="this.style.backgroundColor='#565656'"
+					   style="text-decoration:none;padding: 6px;border-radius: 15px 50px;color:white;background: #565656;">
+						Continue Shopping
+					</a>
+				</td>
+
+			</tr>
+
+
+
+
+		</tfoot>
+
+	</table>
+}
+
+
+<div class="btn-group bg-primary">
+
+	<a href="@Url.Action("Dashboard","Productiteams")" class="btn btn-lg btn-danger">
+		<span class="fa fa-2x fa-share"></span>
+		Check Your Bonus !
+	</a>
+
+</div>
+@*<div>
+		<a href="/Productiteams/ProductList?supplier=Supplier_ID">Details</a>
+		@Html.ActionLink("Go Back Product", "ProductList", "Productiteams")
+	</div>*@

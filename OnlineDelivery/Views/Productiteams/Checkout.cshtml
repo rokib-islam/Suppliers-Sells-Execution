@@ -1,0 +1,112 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    @*<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">*@
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <link href="~/CSS/style.css" rel="stylesheet" />
+    @*<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>*@
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <title>Checkout</title>
+</head>
+<body>
+    @using (Html.BeginForm("saveorder", "Productiteams", FormMethod.Post))
+    {
+    <div class="container">
+        
+            
+                <br><br>
+				<form>
+					<div class="row">
+						<div class="col-sm-6">
+							<h2 class="text-center" style="background: #89dea0;color:white;border: 1px solid;padding: 5px 78px 5px 78px;border-radius: 2px 26px 2px 26px;"><b>Addrss</b> </h2>
+							<br />
+							<div class="input_css">
+								<div class="form-group">
+									<label for="usr">Name:</label>
+									<input type="text" name="Shopkeeper_Name" class="form-control" id="usr">
+								</div>
+								<div class="form-group">
+									<label for="usr">Location:</label>
+									<input type="text" name="Shopkeeper_Location" class="form-control" id="usr">
+								</div>
+								<div class="form-group">
+									<label for="pwd">Area:</label>
+									<input type="text" name="Shopkeeper_Area" class="form-control" id="pwd">
+								</div>
+								<div class="form-group">
+									<label for="usr">Phone:</label>
+									<input type="number" name="Shopkeeper_Phone" class="form-control" id="usr">
+								</div>
+								@*<div class="form-group">
+					<label for="usr">Order Date:</label>
+					<input type="date" name="Order_Date" class="form-control" id="usr">
+				</div>*@
+
+								<div class="form-group">
+									<label for="usr">Delivary Date:</label>
+									<input type="date" name="Delivery_Date" class="form-control" id="usr">
+								</div>
+
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<h2 class="text-center" style="background: #a0c2ef;color:white;border: 1px solid;padding: 5px 78px 5px 78px;border-radius: 2px 26px 2px 26px;"><b>Payment Option</b></h2>
+							<br /><br />
+							<div class="input_css">
+								<div class="radio">
+									<label><input type="radio" name="Payment_Type" value="Bkash">Bkash</label>
+								</div>
+								<div class="radio">
+									<label><input type="radio" name="Payment_Type" value="Rocket">Rocket</label>
+								</div>
+
+								<div class="form-group">
+									<label for="pwd">Phone Number:</label>
+									<input type="number" name="Payment_Phone" class="form-control" id="pwd">
+								</div>
+								<div class="form-group">
+									<label for="pwd">Code Number:</label>
+									<input type="number" name="Payment_Code" class="form-control" id="pwd">
+								</div>
+								<div class="form-group">
+									<label for="pwd">Pay Amount:</label>
+									<input type="number" name="Payment_Amount" class="form-control" id="pwd">
+								</div>
+
+							</div>
+						</div>
+					</div>
+					<br />
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-4">
+							</div>
+							<div class="col-lg-4">
+
+								<input type="submit" name="" value="Confirm to Submit" 
+									   class="btn btn-lg btn-success" style="border-radius:22px;">
+
+							</div>
+							<div class="col-lg-4">
+							</div>
+						</div>
+					</div>
+				</form>
+                <br />
+            
+    
+
+    </div>
+    }
+</body>
+</html>

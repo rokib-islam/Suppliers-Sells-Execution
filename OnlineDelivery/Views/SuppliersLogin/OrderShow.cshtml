@@ -1,0 +1,87 @@
+﻿@model IEnumerable<OnlineDelivery.Models.OrderMain>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+   
+    <title>OrderShow</title>
+    @*<script src="~/Scripts/bootstrap.min.js"></script>*@
+</head>
+<body>
+
+	<table class="table table-bordered table-hover table-striped">
+		<tr class="text-center">
+			<th>
+				Order Date
+			</th>
+			<th>
+				Delivery Date
+			</th>
+			<th>
+				Shopkeeper Location
+			</th>
+			<th>
+				Shopkeeper Area
+			</th>
+			<th>
+				Payment Type
+			</th>
+			<th>
+				Shopkeeper Name
+			</th>
+			<th>
+				Payment ID
+			</th>
+			<th>
+				Shopkeeper ID
+			</th>
+
+		</tr>
+
+		@foreach (var item in Model)
+		{
+			<tr class="text-center">
+				<td>
+					@Html.DisplayFor(modelItem => item.Order_Date)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Delivery_Date)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Shopkeeper_Location)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Shopkeeper_Area)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Payment.Payment_Type)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Shopkeeper.Shopkeeper_Name)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Payment.Payment_ID)
+				</td>
+				<td>
+					@Html.DisplayFor(modelItem => item.Shopkeeper.Shopkeeper_ID)
+				</td>
+		
+			</tr>
+		}
+
+	</table>
+	<br />
+	<div class="text-center">
+		<a href="/SuppliersLogin/Dasboard" style="color: white;padding: 9px;border-radius: 3px 22px;
+		background: #7875ff; text-decoration:none">
+			Go Back Dashboard
+		</a>
+	</div>
+
+</body>
+</html>

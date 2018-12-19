@@ -1,0 +1,80 @@
+﻿@model OnlineDelivery.Models.Customer
+
+@{
+	ViewBag.Title = "Login";
+}
+
+
+
+@using (Html.BeginForm())
+{
+	@Html.AntiForgeryToken()
+
+		
+	<div class="jumbotron">
+	<h4 class="text-center">NB: If you don't want login Or Registration. Please Click "Buy Now"</h4>
+	<h4 class="text-center">If You Login, You get Bonus Coin</h4>
+	
+	<div class="row justify-content-center">
+		<a href="@Url.Action("SuppliersList","Suppliers")" class="btn btn-lg btn-success text-center">
+			<span class="fa fa-2x fa-shopping-bag"></span>
+			Buy Now
+		</a>
+	</div>
+	</div>	
+
+	
+	<h2 class="text-center">Login Here !</h2>
+	<br />
+	<div class="container">
+		<div class="row ">
+			<div class="col-sm-4"></div>
+			<div class="col-sm-4" style="border: 1px solid gray;padding: 25px 5px; ">
+
+				<div class="form-horizontal">
+
+					<div class="form-group">
+						@Html.LabelFor(model => model.CustomerEmail, htmlAttributes: new { @class = "control-label col-md-6" })
+						<div class="col-md-10">
+							@Html.EditorFor(model => model.CustomerEmail, new { htmlAttributes = new { @class = "form-control" } })
+							@Html.ValidationMessageFor(model => model.CustomerEmail, "", new { @class = "text-danger" })
+						</div>
+					</div>
+
+					<div class="form-group">
+						@Html.LabelFor(model => model.CustomerPassword, htmlAttributes: new { @class = "control-label col-md-6" })
+						<div class="col-md-10">
+							@Html.EditorFor(model => model.CustomerPassword, new { htmlAttributes = new { @class = "form-control" } })
+							@Html.ValidationMessageFor(model => model.CustomerPassword, "", new { @class = "text-danger" })
+						</div>
+					</div>
+
+
+
+					<div class="form-group">
+						<div class="col-md-offset-2 col-md-10 text-center">
+							<input type="submit" value="Login" class="btn btn-lg btn-success" style="margin-left: 51px;" />
+						</div>
+					</div>
+				</div>
+				<div>
+					<h5 class="text-center">don't have account? signup here!</h5>
+					<br />
+					<div class="text-center">
+						<a href="/Customers/Registration" class="text-center" style="color: white;padding: 9px;border-radius: 3px 22px;
+		background: #7875ff; text-decoration:none">Signup Here !</a>
+
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4"></div>
+		</div>
+
+	</div>
+
+
+
+
+}
+
+

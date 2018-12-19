@@ -1,0 +1,35 @@
+﻿@*@model IEnumerable<OnlineDelivery.Models.tblCoin>*@
+
+@{
+	ViewBag.Title = "Dashboard";
+	ViewBag.Title = "ShowCart";
+
+	var USERBonus = ViewBag.mBonus;
+}
+<div class="jumbotron">
+	<h2 class="text-center">YOUR BONUS</h2>
+</div>
+
+
+
+<table class="table">
+	<tr>
+		<td colspan="5"><h2> Bonus: @USERBonus  </h2></td>
+	</tr>
+	
+</table>
+<br />
+<br />
+<div>
+	<a href="http://localhost:2711/Productiteams/ShowCart" class="btn btn-lg btn-info">
+		<span class="fa fa-2x fa-share"></span>
+		continue shopping
+	</a>
+</div>
+<div>
+	<h1><strong>Terms & Condition</strong></h1>
+	1. Customer only get bonus when he/she shopping more than 1000 BDT<br />
+	
+	2. When bonus point is more than 1000 it will cut automatically to his/her next shopping
+
+</div>

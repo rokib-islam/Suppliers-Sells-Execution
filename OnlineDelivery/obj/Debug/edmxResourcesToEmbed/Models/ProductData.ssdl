@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OnlineOrderModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="OrderMain">
+    <Key>
+      <PropertyRef Name="OrderMain_ID" />
+    </Key>
+    <Property Name="OrderMain_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Shopkeeper_ID" Type="int" />
+    <Property Name="Supplier_ID" Type="int" />
+    <Property Name="Payment_ID" Type="int" />
+    <Property Name="Delivery_Address" Type="varchar" MaxLength="50" />
+    <Property Name="Order_Date" Type="int" />
+    <Property Name="Delivery_Date" Type="int" />
+    <Property Name="IsDelivered" Type="bit" />
+  </EntityType>
+  <EntityType Name="OrderSub">
+    <Key>
+      <PropertyRef Name="OrderSub_ID" />
+    </Key>
+    <Property Name="OrderSub_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OrderMain_ID" Type="int" />
+    <Property Name="Product_ID" Type="int" />
+    <Property Name="Quantity" Type="int" />
+    <Property Name="Total_price" Type="int" />
+  </EntityType>
+  <EntityType Name="Payment">
+    <Key>
+      <PropertyRef Name="Payment_ID" />
+    </Key>
+    <Property Name="Payment_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Payment_Type" Type="varchar" MaxLength="50" />
+    <Property Name="Payment_Phone" Type="int" />
+    <Property Name="Payment_Code" Type="int" />
+    <Property Name="Payment_Amount" Type="int" />
+  </EntityType>
+  <EntityType Name="Productiteam">
+    <Key>
+      <PropertyRef Name="Product_ID" />
+    </Key>
+    <Property Name="Product_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Product_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Product_Price" Type="int" />
+    <Property Name="Product_Quantity" Type="int" />
+  </EntityType>
+  <EntityType Name="Shopkeeper">
+    <Key>
+      <PropertyRef Name="Shopkeeper_ID" />
+    </Key>
+    <Property Name="Shopkeeper_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Shopkeeper_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Shopkeeper_Location" Type="varchar" MaxLength="50" />
+    <Property Name="Shopkeeper_Area" Type="varchar" MaxLength="50" />
+    <Property Name="Shopkeeper_Phone" Type="int" />
+  </EntityType>
+  <EntityType Name="Supplier">
+    <Key>
+      <PropertyRef Name="Supplier_ID" />
+    </Key>
+    <Property Name="Supplier_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Supplier_Name" Type="varchar" MaxLength="50" />
+    <Property Name="Supplier_Area" Type="varchar" MaxLength="50" />
+    <Property Name="Supplier_Phone" Type="int" />
+    <Property Name="Password" Type="varchar(max)" />
+  </EntityType>
+  <Association Name="FK_OrderMain_Payment">
+    <End Role="Payment" Type="Self.Payment" Multiplicity="0..1" />
+    <End Role="OrderMain" Type="Self.OrderMain" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Payment">
+        <PropertyRef Name="Payment_ID" />
+      </Principal>
+      <Dependent Role="OrderMain">
+        <PropertyRef Name="Payment_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderMain_Shopkeeper">
+    <End Role="Shopkeeper" Type="Self.Shopkeeper" Multiplicity="0..1" />
+    <End Role="OrderMain" Type="Self.OrderMain" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shopkeeper">
+        <PropertyRef Name="Shopkeeper_ID" />
+      </Principal>
+      <Dependent Role="OrderMain">
+        <PropertyRef Name="Shopkeeper_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderMain_Supplier">
+    <End Role="Supplier" Type="Self.Supplier" Multiplicity="0..1" />
+    <End Role="OrderMain" Type="Self.OrderMain" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Supplier">
+        <PropertyRef Name="Supplier_ID" />
+      </Principal>
+      <Dependent Role="OrderMain">
+        <PropertyRef Name="Supplier_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderSub_OrderMain">
+    <End Role="OrderMain" Type="Self.OrderMain" Multiplicity="0..1" />
+    <End Role="OrderSub" Type="Self.OrderSub" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrderMain">
+        <PropertyRef Name="OrderMain_ID" />
+      </Principal>
+      <Dependent Role="OrderSub">
+        <PropertyRef Name="OrderMain_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderSub_Product">
+    <End Role="Productiteam" Type="Self.Productiteam" Multiplicity="0..1" />
+    <End Role="OrderSub" Type="Self.OrderSub" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productiteam">
+        <PropertyRef Name="Product_ID" />
+      </Principal>
+      <Dependent Role="OrderSub">
+        <PropertyRef Name="Product_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="OnlineOrderModelStoreContainer">
+    <EntitySet Name="OrderMain" EntityType="Self.OrderMain" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="OrderSub" EntityType="Self.OrderSub" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Payment" EntityType="Self.Payment" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Productiteam" EntityType="Self.Productiteam" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Shopkeeper" EntityType="Self.Shopkeeper" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Supplier" EntityType="Self.Supplier" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_OrderMain_Payment" Association="Self.FK_OrderMain_Payment">
+      <End Role="Payment" EntitySet="Payment" />
+      <End Role="OrderMain" EntitySet="OrderMain" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderMain_Shopkeeper" Association="Self.FK_OrderMain_Shopkeeper">
+      <End Role="Shopkeeper" EntitySet="Shopkeeper" />
+      <End Role="OrderMain" EntitySet="OrderMain" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderMain_Supplier" Association="Self.FK_OrderMain_Supplier">
+      <End Role="Supplier" EntitySet="Supplier" />
+      <End Role="OrderMain" EntitySet="OrderMain" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderSub_OrderMain" Association="Self.FK_OrderSub_OrderMain">
+      <End Role="OrderMain" EntitySet="OrderMain" />
+      <End Role="OrderSub" EntitySet="OrderSub" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderSub_Product" Association="Self.FK_OrderSub_Product">
+      <End Role="Productiteam" EntitySet="Productiteam" />
+      <End Role="OrderSub" EntitySet="OrderSub" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

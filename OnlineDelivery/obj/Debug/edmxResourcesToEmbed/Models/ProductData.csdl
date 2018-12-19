@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="OnlineOrderModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="OrderMain">
+    <Key>
+      <PropertyRef Name="OrderMain_ID" />
+    </Key>
+    <Property Name="OrderMain_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Shopkeeper_ID" Type="Int32" />
+    <Property Name="Supplier_ID" Type="Int32" />
+    <Property Name="Payment_ID" Type="Int32" />
+    <Property Name="Delivery_Address" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Order_Date" Type="Int32" />
+    <Property Name="Delivery_Date" Type="Int32" />
+    <Property Name="IsDelivered" Type="Boolean" />
+    <NavigationProperty Name="Payment" Relationship="Self.FK_OrderMain_Payment" FromRole="OrderMain" ToRole="Payment" />
+    <NavigationProperty Name="Shopkeeper" Relationship="Self.FK_OrderMain_Shopkeeper" FromRole="OrderMain" ToRole="Shopkeeper" />
+    <NavigationProperty Name="Supplier" Relationship="Self.FK_OrderMain_Supplier" FromRole="OrderMain" ToRole="Supplier" />
+    <NavigationProperty Name="OrderSubs" Relationship="Self.FK_OrderSub_OrderMain" FromRole="OrderMain" ToRole="OrderSub" />
+  </EntityType>
+  <EntityType Name="OrderSub">
+    <Key>
+      <PropertyRef Name="OrderSub_ID" />
+    </Key>
+    <Property Name="OrderSub_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="OrderMain_ID" Type="Int32" />
+    <Property Name="Product_ID" Type="Int32" />
+    <Property Name="Quantity" Type="Int32" />
+    <Property Name="Total_price" Type="Int32" />
+    <NavigationProperty Name="OrderMain" Relationship="Self.FK_OrderSub_OrderMain" FromRole="OrderSub" ToRole="OrderMain" />
+    <NavigationProperty Name="Productiteam" Relationship="Self.FK_OrderSub_Product" FromRole="OrderSub" ToRole="Productiteam" />
+  </EntityType>
+  <EntityType Name="Payment">
+    <Key>
+      <PropertyRef Name="Payment_ID" />
+    </Key>
+    <Property Name="Payment_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Payment_Type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Payment_Phone" Type="Int32" />
+    <Property Name="Payment_Code" Type="Int32" />
+    <Property Name="Payment_Amount" Type="Int32" />
+    <NavigationProperty Name="OrderMains" Relationship="Self.FK_OrderMain_Payment" FromRole="Payment" ToRole="OrderMain" />
+  </EntityType>
+  <EntityType Name="Productiteam">
+    <Key>
+      <PropertyRef Name="Product_ID" />
+    </Key>
+    <Property Name="Product_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Product_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Product_Price" Type="Int32" />
+    <Property Name="Product_Quantity" Type="Int32" />
+    <NavigationProperty Name="OrderSubs" Relationship="Self.FK_OrderSub_Product" FromRole="Productiteam" ToRole="OrderSub" />
+  </EntityType>
+  <EntityType Name="Shopkeeper">
+    <Key>
+      <PropertyRef Name="Shopkeeper_ID" />
+    </Key>
+    <Property Name="Shopkeeper_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Shopkeeper_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Shopkeeper_Location" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Shopkeeper_Area" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Shopkeeper_Phone" Type="Int32" />
+    <NavigationProperty Name="OrderMains" Relationship="Self.FK_OrderMain_Shopkeeper" FromRole="Shopkeeper" ToRole="OrderMain" />
+  </EntityType>
+  <EntityType Name="Supplier">
+    <Key>
+      <PropertyRef Name="Supplier_ID" />
+    </Key>
+    <Property Name="Supplier_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Supplier_Name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Supplier_Area" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Supplier_Phone" Type="Int32" />
+    <Property Name="Password" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="OrderMains" Relationship="Self.FK_OrderMain_Supplier" FromRole="Supplier" ToRole="OrderMain" />
+  </EntityType>
+  <Association Name="FK_OrderMain_Payment">
+    <End Role="Payment" Type="Self.Payment" Multiplicity="0..1" />
+    <End Role="OrderMain" Type="Self.OrderMain" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Payment">
+        <PropertyRef Name="Payment_ID" />
+      </Principal>
+      <Dependent Role="OrderMain">
+        <PropertyRef Name="Payment_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderMain_Shopkeeper">
+    <End Role="Shopkeeper" Type="Self.Shopkeeper" Multiplicity="0..1" />
+    <End Role="OrderMain" Type="Self.OrderMain" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shopkeeper">
+        <PropertyRef Name="Shopkeeper_ID" />
+      </Principal>
+      <Dependent Role="OrderMain">
+        <PropertyRef Name="Shopkeeper_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderMain_Supplier">
+    <End Role="Supplier" Type="Self.Supplier" Multiplicity="0..1" />
+    <End Role="OrderMain" Type="Self.OrderMain" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Supplier">
+        <PropertyRef Name="Supplier_ID" />
+      </Principal>
+      <Dependent Role="OrderMain">
+        <PropertyRef Name="Supplier_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderSub_OrderMain">
+    <End Role="OrderMain" Type="Self.OrderMain" Multiplicity="0..1" />
+    <End Role="OrderSub" Type="Self.OrderSub" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="OrderMain">
+        <PropertyRef Name="OrderMain_ID" />
+      </Principal>
+      <Dependent Role="OrderSub">
+        <PropertyRef Name="OrderMain_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_OrderSub_Product">
+    <End Role="Productiteam" Type="Self.Productiteam" Multiplicity="0..1" />
+    <End Role="OrderSub" Type="Self.OrderSub" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Productiteam">
+        <PropertyRef Name="Product_ID" />
+      </Principal>
+      <Dependent Role="OrderSub">
+        <PropertyRef Name="Product_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="OnlineOrder" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="OrderMains" EntityType="Self.OrderMain" />
+    <EntitySet Name="OrderSubs" EntityType="Self.OrderSub" />
+    <EntitySet Name="Payments" EntityType="Self.Payment" />
+    <EntitySet Name="Productiteams" EntityType="Self.Productiteam" />
+    <EntitySet Name="Shopkeepers" EntityType="Self.Shopkeeper" />
+    <EntitySet Name="Suppliers" EntityType="Self.Supplier" />
+    <AssociationSet Name="FK_OrderMain_Payment" Association="Self.FK_OrderMain_Payment">
+      <End Role="Payment" EntitySet="Payments" />
+      <End Role="OrderMain" EntitySet="OrderMains" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderMain_Shopkeeper" Association="Self.FK_OrderMain_Shopkeeper">
+      <End Role="Shopkeeper" EntitySet="Shopkeepers" />
+      <End Role="OrderMain" EntitySet="OrderMains" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderMain_Supplier" Association="Self.FK_OrderMain_Supplier">
+      <End Role="Supplier" EntitySet="Suppliers" />
+      <End Role="OrderMain" EntitySet="OrderMains" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderSub_OrderMain" Association="Self.FK_OrderSub_OrderMain">
+      <End Role="OrderMain" EntitySet="OrderMains" />
+      <End Role="OrderSub" EntitySet="OrderSubs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_OrderSub_Product" Association="Self.FK_OrderSub_Product">
+      <End Role="Productiteam" EntitySet="Productiteams" />
+      <End Role="OrderSub" EntitySet="OrderSubs" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

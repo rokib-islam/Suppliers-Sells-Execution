@@ -1,0 +1,54 @@
+﻿@model OnlineDelivery.Models.Productiteam
+
+@{
+	ViewBag.Title = "Details";
+}
+
+
+
+
+<div class="row">
+	<div class="col-sm-4"></div>
+	<div class="col-sm-4" style="border: 1px solid gray;padding: 26px 10px; ">
+		<h4 class="text-center">Productiteam</h4>
+		<hr />
+		<dl class="dl-horizontal">
+			<dt>
+				@Html.DisplayNameFor(model => model.Product_Name)
+			</dt>
+
+			<dd>
+				@Html.DisplayFor(model => model.Product_Name)
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.Product_Price)
+			</dt>
+
+			<dd>
+				@Html.DisplayFor(model => model.Product_Price)
+			</dd>
+
+			<dt>
+				@Html.DisplayNameFor(model => model.Product_Quantity)
+			</dt>
+
+			<dd>
+				@Html.DisplayFor(model => model.Product_Quantity)
+			</dd>
+
+		</dl>
+
+		<p>
+			<div class="text-center">
+				@Html.ActionLink("Edit", "Edit", new { id = Model.Product_ID }, htmlAttributes: new { @style = "color: white;padding: 9px;background: #7875ff;text-decoration:none;border-radius: 3px 11px" }) |
+
+				<a href="/SupplierProductiteams" style="color: white;padding: 9px;border-radius: 3px 11px;
+		background: #7875ff; text-decoration:none">Back to List</a>
+				</div>
+		</p>
+	</div>
+	<div class="col-sm-4"></div>
+</div>
+
+

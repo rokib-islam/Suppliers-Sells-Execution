@@ -1,0 +1,74 @@
+﻿@model OnlineDelivery.Models.Customer
+
+@{
+    ViewBag.Title = "Registration";
+}
+<div class="row">
+	<div class="col-sm-4"></div>
+	<div class="col-sm-4"  style="border: 1px solid gray;padding: 26px 2px; ">
+
+		<h2 class="text-center">Registration Here</h2>
+
+		@using (Html.BeginForm())
+	{
+		@Html.AntiForgeryToken()
+
+		<div class="form-horizontal">
+
+			<hr />
+			@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+			<div class="form-group tab-content">
+				@Html.LabelFor(model => model.CustomerName, htmlAttributes: new { @class = "control-label col-md-6" })
+				<div class="col-md-10">
+					@Html.EditorFor(model => model.CustomerName, new { htmlAttributes = new { @class = "form-control" } })
+					@Html.ValidationMessageFor(model => model.CustomerName, "", new { @class = "text-danger" })
+				</div>
+			</div>
+
+			<div class="form-group">
+				@Html.LabelFor(model => model.CustomerEmail, htmlAttributes: new { @class = "control-label col-md-6" })
+				<div class="col-md-10">
+					@Html.EditorFor(model => model.CustomerEmail, new { htmlAttributes = new { @class = "form-control" } })
+					@Html.ValidationMessageFor(model => model.CustomerEmail, "", new { @class = "text-danger" })
+				</div>
+			</div>
+
+			<div class="form-group">
+				@Html.LabelFor(model => model.CustomerAddress, htmlAttributes: new { @class = "control-label col-md-6" })
+				<div class="col-md-10">
+					@Html.EditorFor(model => model.CustomerAddress, new { htmlAttributes = new { @class = "form-control" } })
+					@Html.ValidationMessageFor(model => model.CustomerAddress, "", new { @class = "text-danger" })
+				</div>
+			</div>
+
+			<div class="form-group">
+				@Html.LabelFor(model => model.CustomerPassword, htmlAttributes: new { @class = "control-label col-md-6" })
+				<div class="col-md-10">
+					@Html.EditorFor(model => model.CustomerPassword, new { htmlAttributes = new { @class = "form-control" } })
+					@Html.ValidationMessageFor(model => model.CustomerPassword, "", new { @class = "text-danger" })
+				</div>
+			</div>
+
+			<div class="form-group">
+				@Html.LabelFor(model => model.CustomerGender, htmlAttributes: new { @class = "control-label col-md-6" })
+				<div class="col-md-10">
+					@Html.EditorFor(model => model.CustomerGender, new { htmlAttributes = new { @class = "form-control" } })
+					@Html.ValidationMessageFor(model => model.CustomerGender, "", new { @class = "text-danger" })
+				</div>
+			</div>
+
+			<div class="form-group">
+				<div class="col-md-offset-2 col-md-10 text-center">
+					<input type="submit" value="Registration" class="btn btn-lg btn-success" style="margin-left: 51px;"/>
+				</div>
+			</div>
+		</div>
+}
+
+		<div class="text-center">
+			<a href="/Customers/Login" class="text-center"  style="color: white;padding: 9px;border-radius: 3px 22px;
+		background: #7875ff; text-decoration:none">Back to Login</a>
+		</div>
+	</div>
+	<div class="col-sm-4"></div>
+</div>

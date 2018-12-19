@@ -1,0 +1,300 @@
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\ApplicationInsights.config
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\OnlineDelivery.dll.config
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\OnlineDelivery.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\OnlineDelivery.pdb
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\csc.exe
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\csc.exe.config
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\csc.rsp
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\csi.exe
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\csi.exe.config
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\csi.rsp
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\System.AppContext.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Collections.Immutable.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Console.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Diagnostics.Process.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\System.IO.Compression.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\System.IO.FileSystem.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\System.IO.Pipes.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Reflection.Metadata.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Security.AccessControl.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Security.Claims.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Security.Principal.Windows.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Threading.Thread.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\System.ValueTuple.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Xml.XPath.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\vbc.exe
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\vbc.exe.config
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\vbc.rsp
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\VBCSCompiler.exe
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\roslyn\VBCSCompiler.exe.config
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\Antlr3.Runtime.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\EntityFramework.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\EntityFramework.SqlServer.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\Microsoft.AI.DependencyCollector.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\Microsoft.AI.Web.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\Microsoft.AI.WindowsServer.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\Microsoft.ApplicationInsights.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\Microsoft.Web.Infrastructure.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\Newtonsoft.Json.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\System.Web.Helpers.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\System.Web.Mvc.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\System.Web.Optimization.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\System.Web.Razor.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\System.Web.WebPages.Deployment.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\System.Web.WebPages.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\System.Web.WebPages.Razor.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\WebGrease.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\EntityFramework.xml
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\EntityFramework.SqlServer.xml
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\System.Web.Helpers.xml
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\System.Web.Mvc.xml
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\System.Web.Optimization.xml
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\System.Web.Razor.xml
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\System.Web.WebPages.xml
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\System.Web.WebPages.Deployment.xml
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\System.Web.WebPages.Razor.xml
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\Antlr3.Runtime.pdb
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\Newtonsoft.Json.xml
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\Microsoft.ApplicationInsights.xml
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\Microsoft.AI.DependencyCollector.xml
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\Microsoft.AI.WindowsServer.xml
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\bin\Microsoft.AI.Web.xml
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\obj\Debug\OnlineDelivery.csproj.CoreCompileInputs.cache
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\obj\Debug\OnlineDelivery.csproj.CopyComplete
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\obj\Debug\OnlineDelivery.dll
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\obj\Debug\OnlineDelivery.pdb
+E:\Visual Studio 2017\Projects\OnlineDelivery\OnlineDelivery\obj\Debug\OnlineDelivery.csprojResolveAssemblyReference.cache
+E:\OnlineDelivery\OnlineDelivery\obj\Debug\OnlineDelivery.csproj.CoreCompileInputs.cache
+E:\OnlineDelivery\OnlineDelivery\bin\ApplicationInsights.config
+E:\OnlineDelivery\OnlineDelivery\bin\OnlineDelivery.dll.config
+E:\OnlineDelivery\OnlineDelivery\bin\OnlineDelivery.dll
+E:\OnlineDelivery\OnlineDelivery\bin\OnlineDelivery.pdb
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\csc.exe
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\csc.exe.config
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\csc.rsp
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\csi.exe
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\csi.exe.config
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\csi.rsp
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\System.AppContext.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Collections.Immutable.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Console.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Diagnostics.Process.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\System.IO.Compression.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\System.IO.FileSystem.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\System.IO.Pipes.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Reflection.Metadata.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Security.AccessControl.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Security.Claims.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Security.Principal.Windows.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Threading.Thread.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\System.ValueTuple.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Xml.XmlDocument.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Xml.XPath.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\vbc.exe
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\vbc.exe.config
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\vbc.rsp
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\VBCSCompiler.exe
+E:\OnlineDelivery\OnlineDelivery\bin\roslyn\VBCSCompiler.exe.config
+E:\OnlineDelivery\OnlineDelivery\bin\Antlr3.Runtime.dll
+E:\OnlineDelivery\OnlineDelivery\bin\EntityFramework.dll
+E:\OnlineDelivery\OnlineDelivery\bin\EntityFramework.SqlServer.dll
+E:\OnlineDelivery\OnlineDelivery\bin\Microsoft.AI.Agent.Intercept.dll
+E:\OnlineDelivery\OnlineDelivery\bin\Microsoft.AI.DependencyCollector.dll
+E:\OnlineDelivery\OnlineDelivery\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\OnlineDelivery\OnlineDelivery\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\OnlineDelivery\OnlineDelivery\bin\Microsoft.AI.Web.dll
+E:\OnlineDelivery\OnlineDelivery\bin\Microsoft.AI.WindowsServer.dll
+E:\OnlineDelivery\OnlineDelivery\bin\Microsoft.ApplicationInsights.dll
+E:\OnlineDelivery\OnlineDelivery\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\OnlineDelivery\OnlineDelivery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\OnlineDelivery\OnlineDelivery\bin\Microsoft.Web.Infrastructure.dll
+E:\OnlineDelivery\OnlineDelivery\bin\Newtonsoft.Json.dll
+E:\OnlineDelivery\OnlineDelivery\bin\System.Diagnostics.DiagnosticSource.dll
+E:\OnlineDelivery\OnlineDelivery\bin\System.Web.Helpers.dll
+E:\OnlineDelivery\OnlineDelivery\bin\System.Web.Mvc.dll
+E:\OnlineDelivery\OnlineDelivery\bin\System.Web.Optimization.dll
+E:\OnlineDelivery\OnlineDelivery\bin\System.Web.Razor.dll
+E:\OnlineDelivery\OnlineDelivery\bin\System.Web.WebPages.Deployment.dll
+E:\OnlineDelivery\OnlineDelivery\bin\System.Web.WebPages.dll
+E:\OnlineDelivery\OnlineDelivery\bin\System.Web.WebPages.Razor.dll
+E:\OnlineDelivery\OnlineDelivery\bin\WebGrease.dll
+E:\OnlineDelivery\OnlineDelivery\bin\Antlr3.Runtime.pdb
+E:\OnlineDelivery\OnlineDelivery\bin\EntityFramework.xml
+E:\OnlineDelivery\OnlineDelivery\bin\EntityFramework.SqlServer.xml
+E:\OnlineDelivery\OnlineDelivery\bin\Microsoft.AI.DependencyCollector.xml
+E:\OnlineDelivery\OnlineDelivery\bin\Microsoft.AI.Web.xml
+E:\OnlineDelivery\OnlineDelivery\bin\Microsoft.AI.WindowsServer.xml
+E:\OnlineDelivery\OnlineDelivery\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\OnlineDelivery\OnlineDelivery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\OnlineDelivery\OnlineDelivery\bin\Newtonsoft.Json.xml
+E:\OnlineDelivery\OnlineDelivery\bin\System.Diagnostics.DiagnosticSource.xml
+E:\OnlineDelivery\OnlineDelivery\bin\System.Web.Helpers.xml
+E:\OnlineDelivery\OnlineDelivery\bin\System.Web.Mvc.xml
+E:\OnlineDelivery\OnlineDelivery\bin\System.Web.Razor.xml
+E:\OnlineDelivery\OnlineDelivery\bin\System.Web.WebPages.xml
+E:\OnlineDelivery\OnlineDelivery\bin\System.Web.WebPages.Deployment.xml
+E:\OnlineDelivery\OnlineDelivery\bin\System.Web.WebPages.Razor.xml
+E:\OnlineDelivery\OnlineDelivery\bin\System.Web.Optimization.xml
+E:\OnlineDelivery\OnlineDelivery\obj\Debug\OnlineDelivery.dll
+E:\OnlineDelivery\OnlineDelivery\obj\Debug\OnlineDelivery.pdb
+E:\OnlineDelivery\OnlineDelivery\bin\System.Net.Http.Formatting.dll
+E:\OnlineDelivery\OnlineDelivery\bin\System.Web.Http.dll
+E:\OnlineDelivery\OnlineDelivery\bin\System.Web.Http.WebHost.dll
+E:\OnlineDelivery\OnlineDelivery\bin\System.Net.Http.Formatting.xml
+E:\OnlineDelivery\OnlineDelivery\bin\System.Web.Http.xml
+E:\OnlineDelivery\OnlineDelivery\bin\System.Web.Http.WebHost.xml
+E:\backup\OnlineDelivery\OnlineDelivery\bin\ApplicationInsights.config
+E:\backup\OnlineDelivery\OnlineDelivery\bin\OnlineDelivery.dll.config
+E:\backup\OnlineDelivery\OnlineDelivery\bin\OnlineDelivery.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\OnlineDelivery.pdb
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\csc.exe
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\csc.exe.config
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\csc.rsp
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\csi.exe
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\csi.exe.config
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\csi.rsp
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\System.AppContext.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Collections.Immutable.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Console.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Diagnostics.Process.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\System.IO.Compression.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\System.IO.FileSystem.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\System.IO.Pipes.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Reflection.Metadata.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Security.AccessControl.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Security.Claims.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Security.Principal.Windows.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Threading.Thread.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\System.ValueTuple.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Xml.XmlDocument.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Xml.XPath.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\vbc.exe
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\vbc.exe.config
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\vbc.rsp
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\VBCSCompiler.exe
+E:\backup\OnlineDelivery\OnlineDelivery\bin\roslyn\VBCSCompiler.exe.config
+E:\backup\OnlineDelivery\OnlineDelivery\bin\Antlr3.Runtime.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\EntityFramework.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\EntityFramework.SqlServer.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\Microsoft.AI.Agent.Intercept.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\Microsoft.AI.DependencyCollector.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\Microsoft.AI.Web.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\Microsoft.AI.WindowsServer.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\Microsoft.ApplicationInsights.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\Microsoft.Web.Infrastructure.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\Newtonsoft.Json.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\System.Diagnostics.DiagnosticSource.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\System.Net.Http.Formatting.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\System.Web.Helpers.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\System.Web.Http.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\System.Web.Http.WebHost.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\System.Web.Mvc.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\System.Web.Optimization.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\System.Web.Razor.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\System.Web.WebPages.Deployment.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\System.Web.WebPages.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\System.Web.WebPages.Razor.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\WebGrease.dll
+E:\backup\OnlineDelivery\OnlineDelivery\bin\Antlr3.Runtime.pdb
+E:\backup\OnlineDelivery\OnlineDelivery\bin\EntityFramework.xml
+E:\backup\OnlineDelivery\OnlineDelivery\bin\EntityFramework.SqlServer.xml
+E:\backup\OnlineDelivery\OnlineDelivery\bin\Microsoft.AI.DependencyCollector.xml
+E:\backup\OnlineDelivery\OnlineDelivery\bin\Microsoft.AI.Web.xml
+E:\backup\OnlineDelivery\OnlineDelivery\bin\Microsoft.AI.WindowsServer.xml
+E:\backup\OnlineDelivery\OnlineDelivery\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\backup\OnlineDelivery\OnlineDelivery\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\backup\OnlineDelivery\OnlineDelivery\bin\Newtonsoft.Json.xml
+E:\backup\OnlineDelivery\OnlineDelivery\bin\System.Diagnostics.DiagnosticSource.xml
+E:\backup\OnlineDelivery\OnlineDelivery\bin\System.Net.Http.Formatting.xml
+E:\backup\OnlineDelivery\OnlineDelivery\bin\System.Web.Helpers.xml
+E:\backup\OnlineDelivery\OnlineDelivery\bin\System.Web.Http.xml
+E:\backup\OnlineDelivery\OnlineDelivery\bin\System.Web.Http.WebHost.xml
+E:\backup\OnlineDelivery\OnlineDelivery\bin\System.Web.Mvc.xml
+E:\backup\OnlineDelivery\OnlineDelivery\bin\System.Web.Razor.xml
+E:\backup\OnlineDelivery\OnlineDelivery\bin\System.Web.WebPages.xml
+E:\backup\OnlineDelivery\OnlineDelivery\bin\System.Web.WebPages.Deployment.xml
+E:\backup\OnlineDelivery\OnlineDelivery\bin\System.Web.WebPages.Razor.xml
+E:\backup\OnlineDelivery\OnlineDelivery\bin\System.Web.Optimization.xml
+E:\backup\OnlineDelivery\OnlineDelivery\obj\Debug\OnlineDelivery.csproj.CoreCompileInputs.cache
+E:\backup\OnlineDelivery\OnlineDelivery\obj\Debug\OnlineDelivery.dll
+E:\backup\OnlineDelivery\OnlineDelivery\obj\Debug\OnlineDelivery.pdb
+E:\backup\OnlineDelivery\OnlineDelivery\obj\Debug\OnlineDelivery.csprojResolveAssemblyReference.cache

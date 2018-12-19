@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="OnlineOrderModelStoreContainer" CdmEntityContainer="OnlineOrderEntities">
+    <EntitySetMapping Name="Customers">
+      <EntityTypeMapping TypeName="OnlineOrderModel.Customer">
+        <MappingFragment StoreEntitySet="Customer">
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="CustomerEmail" ColumnName="CustomerEmail" />
+          <ScalarProperty Name="CustomerAddress" ColumnName="CustomerAddress" />
+          <ScalarProperty Name="CustomerPassword" ColumnName="CustomerPassword" />
+          <ScalarProperty Name="CustomerGender" ColumnName="CustomerGender" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderMains">
+      <EntityTypeMapping TypeName="OnlineOrderModel.OrderMain">
+        <MappingFragment StoreEntitySet="OrderMain">
+          <ScalarProperty Name="OrderMain_ID" ColumnName="OrderMain_ID" />
+          <ScalarProperty Name="Shopkeeper_ID" ColumnName="Shopkeeper_ID" />
+          <ScalarProperty Name="Supplier_ID" ColumnName="Supplier_ID" />
+          <ScalarProperty Name="Payment_ID" ColumnName="Payment_ID" />
+          <ScalarProperty Name="Order_Date" ColumnName="Order_Date" />
+          <ScalarProperty Name="Delivery_Date" ColumnName="Delivery_Date" />
+          <ScalarProperty Name="Shopkeeper_Location" ColumnName="Shopkeeper_Location" />
+          <ScalarProperty Name="Shopkeeper_Area" ColumnName="Shopkeeper_Area" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderSubs">
+      <EntityTypeMapping TypeName="OnlineOrderModel.OrderSub">
+        <MappingFragment StoreEntitySet="OrderSub">
+          <ScalarProperty Name="OrderSub_ID" ColumnName="OrderSub_ID" />
+          <ScalarProperty Name="OrderMain_ID" ColumnName="OrderMain_ID" />
+          <ScalarProperty Name="Product_ID" ColumnName="Product_ID" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="Total_price" ColumnName="Total_price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Payments">
+      <EntityTypeMapping TypeName="OnlineOrderModel.Payment">
+        <MappingFragment StoreEntitySet="Payment">
+          <ScalarProperty Name="Payment_ID" ColumnName="Payment_ID" />
+          <ScalarProperty Name="Payment_Type" ColumnName="Payment_Type" />
+          <ScalarProperty Name="Payment_Phone" ColumnName="Payment_Phone" />
+          <ScalarProperty Name="Payment_Code" ColumnName="Payment_Code" />
+          <ScalarProperty Name="Payment_Amount" ColumnName="Payment_Amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Productiteams">
+      <EntityTypeMapping TypeName="OnlineOrderModel.Productiteam">
+        <MappingFragment StoreEntitySet="Productiteam">
+          <ScalarProperty Name="Product_ID" ColumnName="Product_ID" />
+          <ScalarProperty Name="Product_Name" ColumnName="Product_Name" />
+          <ScalarProperty Name="Product_Price" ColumnName="Product_Price" />
+          <ScalarProperty Name="Product_Quantity" ColumnName="Product_Quantity" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Shopkeepers">
+      <EntityTypeMapping TypeName="OnlineOrderModel.Shopkeeper">
+        <MappingFragment StoreEntitySet="Shopkeeper">
+          <ScalarProperty Name="Shopkeeper_ID" ColumnName="Shopkeeper_ID" />
+          <ScalarProperty Name="Shopkeeper_Name" ColumnName="Shopkeeper_Name" />
+          <ScalarProperty Name="Shopkeeper_Phone" ColumnName="Shopkeeper_Phone" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Suppliers">
+      <EntityTypeMapping TypeName="OnlineOrderModel.Supplier">
+        <MappingFragment StoreEntitySet="Supplier">
+          <ScalarProperty Name="Supplier_ID" ColumnName="Supplier_ID" />
+          <ScalarProperty Name="Supplier_Name" ColumnName="Supplier_Name" />
+          <ScalarProperty Name="Supplier_Area" ColumnName="Supplier_Area" />
+          <ScalarProperty Name="Supplier_Phone" ColumnName="Supplier_Phone" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblCoins">
+      <EntityTypeMapping TypeName="OnlineOrderModel.tblCoin">
+        <MappingFragment StoreEntitySet="tblCoin">
+          <ScalarProperty Name="CoinID" ColumnName="CoinID" />
+          <ScalarProperty Name="OrderMain_ID" ColumnName="OrderMain_ID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="CoinAmount" ColumnName="CoinAmount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
